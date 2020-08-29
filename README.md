@@ -11,13 +11,13 @@ Pero al ejecutar las pruebas por segunda vez, después de añadir la clase Regis
 ## Finalizar el ejercicio
 **Piense en los casos de equivalencia que se pueden generar del ejercicio para la registraduría, dadas las condiciones. Deben ser al menos 5:**
 -  El que una persona esté viva o muerta tiene precedencia a cualquier valor que su edad pueda tomar o a su previa existencia en la lista de registrados.
-    | Nombre| Clase de equivalencia |
-	| :---:         |     ---     |
-	| 1| **DEAD:** Cuando la persona registrada está muerta|
-	| 2| **UNDERAGE:** Cuando la persona está viva y su edad está entre 0 y 17 años|
-	| 3| **INVALID_AGE:** Cuando la edad de la persona es un número negativo o un número mayor a 130 años|
-	| 4| **VALID:** Cuando la persona registrada esté viva y esté en un rango de edad entre 18 y 130 años|
-	| 5| **DUPLICATED:** Cuando una persona se intenta registrar más de una vez|
+     | **Nombre**| **Clase de equivalencia** |
+	| :---       |     ---     |
+	| **DEAD**|  Cuando la persona registrada está muerta|
+	| **UNDERAGE**| Cuando la persona está viva y su edad está entre 0 y 17 años|
+	| **INVALID_AGE**| Cuando la edad de la persona es un número negativo o un número mayor a 130 años|
+	| **VALID**| Cuando la persona registrada esté viva y esté en un rango de edad entre 18 y 130 años|
+	| **DUPLICATED**| Cuando una persona se intenta registrar más de una vez|
 
 ## Descuento de tarifas
 1. De acuerdo con lo indicado, y teniendo en cuenta que NO hay precondiciones, en qué casos se debería arrojar una excepción de tipo ExcepcionParametrosInvalidos?. Agregue esto a la especificación
